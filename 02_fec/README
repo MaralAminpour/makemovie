@@ -1,0 +1,3 @@
+I used 04_make_fec_movie.py instead of 04_make_fec_movie.sh
+cp sdF201_asmd.work.dat_0015_201.1.csv smooth.dat
+don't forget to run awk 'NR == 1 || NR % 400 == 0' smooth.dat > force.dat before running 03_skip.sh as step1 
