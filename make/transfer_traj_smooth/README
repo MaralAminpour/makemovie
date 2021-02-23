@@ -1,0 +1,22 @@
+
+#series1
+#for dir in frame00{1..9}; do  #run1
+#for dir in frame0{10..14}; do #run1
+#for dir in frame0{15..28}; do #run2
+#for dir in frame0{29..41}; do #run3
+
+#series3
+#for dir in frame00{1..9}; do #run4
+#for dir in frame0{10..41}; do #run4
+
+#series2    
+#for dir in frame00{1..5}; do #run8
+#for dir in frame00{6..9}; do #run9
+#for dir in frame010; do #run9
+#for dir in frame0{11..25}; do #run4
+#for dir in frame0{26..29}; do #run5
+#for dir in frame030; do #run5
+#for dir in frame0{31..36}; do #run4
+#for dir in frame0{37..41}; do #run7
+
+
