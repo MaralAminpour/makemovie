@@ -1,0 +1,23 @@
+TRAJ traj.pdb
+COORD start.pdb
+NLEVEL 1001
+BEGIN=0
+DT 800
+PATCH_TIME yes
+TRUNC  1.0
+TRUNC_INTER 0.5
+TRUNC_DR 1.0
+DR_MODE both  
+GNUS_PATH ../../scripts/conan_scripts/conan-1.0/gnuplot_inputscripts/ 
+RUN_MDMAT yes
+DOMAINS domains.txt
+COORD_PDB protein.pdb
+K_TRAJ_CLUSTERS 1-5
+K_RES_CLUSTERS 1-5
+PEARSON_INTER yes
+PCA_MAKE 10
+
+
+
+
+

@@ -1,0 +1,7 @@
+we need to have 
+domains.txt
+start.pdb protein.pdb
+traj.pdb
+fine.inp
+
+python  ../../scripts/conan_scripts/conan-1.0/conan.py fine.inp
